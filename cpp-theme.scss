@@ -1,0 +1,216 @@
+/*-- scss:defaults --*/
+
+// ── Cal Poly Pomona Brand Tokens ──────────────────────────────────────────
+// Official CPP colors: Forest Green + Gold on clean white
+// Subject: MSDM Culminating Experience Project info session
+// Audience: current MSDM students — familiar with academic context
+// Aesthetic: institutional but warm, not corporate-cold
+
+$cpp-green:   #154734;   // CPP official forest green — authority, trust
+$cpp-gold:    #B08D57;   // CPP official gold — accent, warmth
+$cpp-green-2: #1E6B4F;   // lighter green for section backgrounds
+$cream:       #FAF8F4;   // warm slide background — not clinical white
+$ink:         #1A1A1A;   // near-black body text
+$ink-dim:     #5A5A5A;   // muted secondary text
+$line:        #D9D4C8;   // hairline rule / border
+
+$presentation-heading-font: "Garamond", "EB Garamond", Georgia, serif;
+$presentation-font-size-root: 32px;
+$presentation-line-height: 1.5;
+
+$body-bg:    $cream;
+$body-color: $ink;
+$link-color: $cpp-green;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+.reveal {
+  font-family: "Inter", -apple-system, sans-serif;
+  background-color: $cream;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  font-family: "EB Garamond", Georgia, serif;
+  font-weight: 600;
+  color: $cpp-green;
+  text-transform: none;
+  letter-spacing: -0.01em;
+}
+
+.reveal h1 { font-size: 1.6em; }
+.reveal h2 { font-size: 1.35em; margin-bottom: 0.3em; }
+.reveal h3 { font-size: 1.05em; color: $cpp-gold; font-weight: 600; }
+
+.reveal p, .reveal li {
+  font-size: 0.82em;
+  line-height: 1.55;
+}
+
+.reveal strong { color: $cpp-green; }
+.reveal em { color: $cpp-gold; font-style: normal; font-weight: 600; }
+
+// ── Signature element: CPP green left-border rule ────────────────────────
+// Every content slide gets a forest-green left accent bar — an understated
+// but consistent institutional mark, echoing the CPP letterhead convention.
+.cpp-rule {
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, $cpp-green 60%, $cpp-gold 100%);
+  margin: 0.2em 0 0.7em 0;
+  border-radius: 2px;
+}
+
+// ── Accent box ────────────────────────────────────────────────────────────
+.accent-box {
+  border-left: 4px solid $cpp-gold;
+  background: rgba($cpp-gold, 0.08);
+  padding: 0.6em 0.9em;
+  margin: 0.5em 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.82em;
+}
+
+.warn-box {
+  border-left: 4px solid #C0392B;
+  background: rgba(192, 57, 43, 0.07);
+  padding: 0.6em 0.9em;
+  margin: 0.5em 0;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.82em;
+  color: #7B241C;
+}
+
+// ── Milestone timeline strip ──────────────────────────────────────────────
+.milestone-strip {
+  display: flex;
+  gap: 0;
+  margin: 0.8em 0;
+  font-size: 0.58em;
+  font-family: "Inter", sans-serif;
+
+  .ms-item {
+    flex: 1;
+    padding: 0.5em 0.4em;
+    text-align: center;
+    position: relative;
+
+    &::after {
+      content: "→";
+      position: absolute;
+      right: -0.5em;
+      top: 50%;
+      transform: translateY(-50%);
+      color: $cpp-gold;
+      font-size: 1.2em;
+      z-index: 2;
+    }
+
+    &:last-child::after { display: none; }
+
+    .ms-date {
+      font-weight: 700;
+      color: $cpp-gold;
+      display: block;
+      font-size: 1em;
+    }
+    .ms-label {
+      display: block;
+      color: $cream;
+      font-size: 0.9em;
+      line-height: 1.3;
+      margin-top: 0.2em;
+    }
+  }
+
+  .ms-fall   { background: $cpp-green; }
+  .ms-winter { background: darken($cpp-gold, 10%); }
+  .ms-spring { background: $cpp-green-2; }
+  .ms-summer { background: lighten($cpp-green, 5%); }
+}
+
+// ── Two-column layout ────────────────────────────────────────────────────
+.reveal .columns { display: flex; gap: 1.5em; }
+
+// ── Section divider slides ───────────────────────────────────────────────
+.reveal .slides section[data-background-color] h2 {
+  color: $cream;
+  font-size: 2em;
+}
+.reveal .slides section[data-background-color] .divider-sub {
+  color: rgba(255,255,255,0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+  margin-top: 0.4em;
+}
+
+// ── Tables ───────────────────────────────────────────────────────────────
+.reveal table {
+  font-size: 0.62em;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.5em 0;
+}
+.reveal table th {
+  background: $cpp-green;
+  color: $cream;
+  padding: 0.5em 0.8em;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.reveal table td {
+  padding: 0.5em 0.8em;
+  border-bottom: 1px solid $line;
+  color: $ink;
+}
+.reveal table tr:nth-child(even) td { background: rgba($cpp-green, 0.04); }
+
+// ── Checklist component ──────────────────────────────────────────────────
+.checklist {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.78em;
+
+  li {
+    padding: 0.3em 0 0.3em 1.6em;
+    position: relative;
+    border-bottom: 1px dashed $line;
+
+    &::before {
+      content: "☐";
+      position: absolute;
+      left: 0;
+      color: $cpp-gold;
+      font-size: 1.1em;
+    }
+  }
+}
+
+// ── Progress and slide number ─────────────────────────────────────────────
+.reveal .progress { color: $cpp-gold; height: 3px; }
+.reveal .slide-number {
+  font-family: "Inter", sans-serif;
+  color: $ink-dim;
+  background: transparent;
+  font-size: 0.7em;
+}
+
+// ── Fragments ────────────────────────────────────────────────────────────
+.reveal .fragment.fade-in { opacity: 0; transition: opacity 0.35s ease; }
+.reveal .fragment.fade-in.visible { opacity: 1; }
+
+// ── r-fit-text ────────────────────────────────────────────────────────────
+.reveal .r-fit-text {
+  font-family: "EB Garamond", Georgia, serif;
+  color: $ink-dim;
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.reveal .r-fit-text.gold { color: $cpp-gold; }
+.reveal .r-fit-text.green { color: $cpp-green; }

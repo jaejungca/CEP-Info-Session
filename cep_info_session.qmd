@@ -1,0 +1,853 @@
+---
+title: "MSDM Culminating Experience Project"
+subtitle: "Informational Session"
+author: "Jae Jung · Cal Poly Pomona"
+date: today
+format:
+  revealjs:
+    theme: [default, cpp-theme.scss]
+    slide-number: c/t
+    progress: true
+    transition: fade
+    transition-speed: fast
+    code-line-numbers: false
+    code-fold: false
+    code-tools: false
+    embed-resources: true
+    fig-align: center
+    chalkboard: false
+    preview-links: auto
+    width: 1280
+    height: 720
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Welcome{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+The **MSDM Culminating Experience Project (CEP)** is the capstone of your graduate journey — a year-long applied project where you put everything you have learned to work on a real digital marketing challenge.
+:::
+
+::: {.fragment .fade-in}
+This session covers what you need to know **before the project begins**.
+:::
+
+::: {.fragment .fade-in .accent-box}
+Today's agenda: What is the CEP → Timeline → Proposals → Choosing a project → PO vs. AO → Individual accountability → Project management → Pitfalls to avoid
+:::
+
+---
+
+## What Is the CEP?{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+:::: {.columns}
+
+::: {.column width="58%"}
+::: {.incremental}
+- Spans **one full academic year** — Fall, Spring, Summer
+- Groups of **4–6 students** per project
+- One **Faculty Lead** (committee chair) per project
+- Produces: analysis, insights, a **digital marketing plan**, and campaign execution
+- Assessed against MSDM **Student Learning Outcomes (SLOs)**
+:::
+:::
+
+::: {.column width="42%"}
+::: {.accent-box}
+**Two completion pathways**
+
+- **2-year roadmap**: CEP begins Fall of Year 2
+- **1-year accelerated**: CEP begins Fall of Year 1
+:::
+:::
+
+::::
+
+---
+
+## MSDM Student Learning Outcomes{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+<table>
+<thead><tr><th>SLO</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td><strong>SLO 1</strong></td><td>Translate a marketing problem into Analytics Objectives that drive the project</td></tr>
+<tr><td><strong>SLO 2</strong></td><td>Evaluate consumer psychology principles relevant to the marketing problem</td></tr>
+<tr><td><strong>SLO 3</strong></td><td>Build a model appropriate for addressing the analytics objectives</td></tr>
+<tr><td><strong>SLO 4a</strong></td><td>Make data-informed recommendations on marketing strategy</td></tr>
+<tr><td><strong>SLO 4b</strong></td><td>Develop an effective digital marketing plan based on data insights</td></tr>
+<tr><td><strong>SLO 5a</strong></td><td>Effectively communicate components orally</td></tr>
+<tr><td><strong>SLO 5b</strong></td><td>Effectively communicate components in writing</td></tr>
+</tbody>
+</table>
+
+---
+
+# Timeline & Deliverables {background-color="#154734"}
+
+::: {.divider-sub}
+A one-year arc — Fall → Spring → Summer
+:::
+
+---
+
+## The Big Picture{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+<div class="milestone-strip">
+<div class="ms-item ms-fall"><span class="ms-date">FALL</span><span class="ms-label">Proposal<br>Ch. 1–3</span></div>
+<div class="ms-item ms-winter"><span class="ms-date">WINTER</span><span class="ms-label">Feedback &<br>Data Prep</span></div>
+<div class="ms-item ms-spring"><span class="ms-date">SPRING</span><span class="ms-label">Analysis &<br>DM Plan</span></div>
+<div class="ms-item ms-summer"><span class="ms-date">SUMMER</span><span class="ms-label">Execute &<br>Reflect</span></div>
+</div>
+
+::: {.fragment .fade-in}
+Each semester has **major milestones** with written reports and presentations. Missing a milestone can result in a temporary grade and delay graduation.
+:::
+
+---
+
+## Fall Semester Milestones{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+<table>
+<thead><tr><th>Week</th><th>Milestone</th><th>Deliverables</th></tr></thead>
+<tbody>
+<tr><td><strong>W04</strong></td><td>Project Kickoff Day</td><td>First meeting with Faculty Lead & Client; project plan</td></tr>
+<tr><td><strong>W09</strong></td><td>Initial Proposal Presentation</td><td>Written report (Ch1, Ch2, Ch3) + PPT; Survey instrument (if applicable)</td></tr>
+<tr><td><strong>W10–W12</strong></td><td>Data Collection Begins</td><td>IRB application; GA4 setup; data integrity confirmation</td></tr>
+<tr><td><strong>W15</strong></td><td>Final Proposal Defense</td><td>Ch1–Ch3 written report + PPT; IRB letter; link to data in OneDrive</td></tr>
+</tbody>
+</table>
+
+::: {.fragment .fade-in .warn-box}
+**Students without solid data by W15 will receive a temporary grade** and must complete data collection during winter break before proceeding to spring.
+:::
+
+---
+
+## Spring Semester Milestones{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+<table>
+<thead><tr><th>Week</th><th>Milestone</th><th>Deliverables</th></tr></thead>
+<tbody>
+<tr><td><strong>W01</strong></td><td>Data Analysis Begins — Day 1</td><td>Data wrangling, visualization, descriptive statistics</td></tr>
+<tr><td><strong>W06</strong></td><td>Data Analysis & Results Presentation</td><td>Chapter 4 written report + PPT (Ch1–Ch4)</td></tr>
+<tr><td><strong>W13</strong></td><td>Final Analysis & Recommendations</td><td>Ch4 final + Part of Ch5 (recommendations); written report + PPT</td></tr>
+<tr><td><strong>W16</strong></td><td>Digital Marketing Plan Presentation</td><td>Concrete DM plan; campaign starts immediately</td></tr>
+</tbody>
+</table>
+
+::: {.accent-box}
+**IBM 6800** hosts Ch4 analysis. **IBM 6400** hosts the concrete DM plan in W16.
+:::
+
+---
+
+## Summer Semester Milestones{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+<table>
+<thead><tr><th>Week</th><th>Milestone</th><th>Deliverables</th></tr></thead>
+<tbody>
+<tr><td><strong>W01</strong></td><td>Campaign Execution Continues</td><td>Present approved DM plan on Day 1; Ch5 updates</td></tr>
+<tr><td><strong>W05</strong></td><td>Execution Progress Presentation</td><td>Ch5 update — written report + PPT (cumulative Ch1–Ch5)</td></tr>
+<tr><td><strong>W09</strong></td><td>Final Presentation</td><td>Complete Ch5 + front-end sections; DM performance assessment</td></tr>
+<tr><td><strong>W10</strong></td><td>Final Edits</td><td>Complete written report; electronic committee signatures via Adobe Docu</td></tr>
+<tr><td><strong>W11</strong></td><td>Paperwork</td><td>RCE submission; Abstract/ICS to library; full report to instructor</td></tr>
+</tbody>
+</table>
+
+::: {.warn-box}
+**Failure to complete the W09 final presentation = inability to graduate at the end of summer.** Plan accordingly.
+:::
+
+---
+
+# Call for Project Proposals {background-color="#154734"}
+
+::: {.divider-sub}
+Who proposes, what topics, what's required
+:::
+
+---
+
+## Who Can Propose a Project?{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Faculty
+- Projects aligned with research interests or industry connections
+- Already have domain expertise to guide students
+:::
+
+::: {.column width="50%"}
+### Students
+- Projects tied to your employer or industry connections
+- **Must identify a faculty lead** who commits to overseeing the project
+:::
+
+::::
+
+::: {.fragment .fade-in .accent-box}
+**Businesses and organizations** can be involved as clients, but the proposal must be submitted by a faculty member or a student with a committed faculty lead.
+:::
+
+---
+
+## Project Categories{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.incremental}
+1. **Faculty-initiated, applied project for a client** — most common; faculty leads, client provides data and context
+2. **Faculty-initiated, applied project** — no external client; faculty defines the scope
+3. **Student-initiated project for a client** — student brings the idea and client connection; faculty lead required
+:::
+
+::: {.fragment .fade-in .accent-box}
+Projects involving a client are **preferred** — but projects without a client are welcome as long as they meet all other requirements.
+:::
+
+---
+
+## What Topics Can Be Proposed?{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Social media campaign analysis
+- Search Engine Marketing (SEM)
+- Search Engine Optimization (SEO)
+- Customer lifetime value modeling
+- Marketing budget allocation
+- Customer segmentation & targeting
+- Product development & management
+:::
+
+::: {.column width="50%"}
+- Pricing strategy & optimization
+- Online/offline channel optimization
+- Integrated marketing communications
+- Consumer behavior analysis
+- Retail strategy & ecommerce
+- Sales performance evaluation
+- Customer service & experience
+:::
+
+::::
+
+---
+
+## Proposal Deadlines{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+<table>
+<thead><tr><th>Date</th><th>Event</th></tr></thead>
+<tbody>
+<tr><td><strong>Su W01 (Jun 1)</strong></td><td>Call for Project Proposals opens</td></tr>
+<tr><td><strong>Su W06 (Jul 6)</strong></td><td>MSDM CEP Informational Session (today)</td></tr>
+<tr><td><strong>FA W00 (Aug 17)</strong></td><td>Proposal submission deadline</td></tr>
+<tr><td><strong>FA W01 (Aug 24)</strong></td><td>Feedback provided to proposers</td></tr>
+<tr><td><strong>FA W02 (Aug 31)</strong></td><td>Project Forum — Elevator Pitch + Q&A + Preference Form</td></tr>
+<tr><td><strong>FA W03 (Sep 8)</strong></td><td>Project-Group Assignment completed</td></tr>
+<tr><td><strong>FA W04 (Sep 15)</strong></td><td>Project Kickoff Day</td></tr>
+</tbody>
+</table>
+
+---
+
+# Proposal Content {background-color="#154734"}
+
+::: {.divider-sub}
+What goes in a 2-page proposal
+:::
+
+---
+
+## 11 Required Elements{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+<ul class="checklist">
+<li>Project title</li>
+<li>Project description & scope</li>
+<li>Proposed project objectives</li>
+<li>Data plan (primary or secondary)</li>
+<li>Methods & analytical approach</li>
+<li>Marketing plan & implementation</li>
+</ul>
+:::
+
+::: {.column width="50%"}
+<ul class="checklist">
+<li>Proposed timeline</li>
+<li>Expected skills students will gain</li>
+<li>Targeted job roles</li>
+<li>Preferred student skills (groups of 4–6)</li>
+<li>Confirmation of additional funding</li>
+</ul>
+:::
+
+::::
+
+::: {.accent-box}
+No more than **2 pages**. Submit to the Program Coordinator by **FA W00 (Aug 17)**.
+:::
+
+---
+
+## Data Requirements{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.incremental}
+- Data must be **secured by FA W15** (Week 14 at latest) — without it, spring analysis cannot begin
+- **GA4 data**: confirm you have access to the property; perform a data integrity audit in fall
+- **Survey research**: provide IRB timeline, participant type, and collection plan in the proposal
+- **Secondary data**: confirm data has all variables needed for your analytics objectives
+:::
+
+::: {.fragment .fade-in .warn-box}
+Data must be ready on **Day 1 of Spring**. No data = no analysis = no graduation on time.
+:::
+
+---
+
+## The Digital Marketing Plan Requirement{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+**Every project** — with or without a client — must include a digital marketing plan creation and execution component.
+:::
+
+::: {.fragment .fade-in}
+This is not optional. It directly supports MSDM's learning outcome of **data-driven digital marketing strategy** (SLO 4b).
+:::
+
+::: {.fragment .fade-in}
+<table>
+<thead><tr><th>Timeline</th><th>Activity</th></tr></thead>
+<tbody>
+<tr><td>Spring W13–W16</td><td>Create the concrete digital marketing plan based on data insights</td></tr>
+<tr><td>Spring W16</td><td>Present plan to client; campaign starts immediately</td></tr>
+<tr><td>Summer W01–W09</td><td>Execute plan, track KPIs, assess performance</td></tr>
+</tbody>
+</table>
+:::
+
+---
+
+# How to Choose a Project {background-color="#154734"}
+
+::: {.divider-sub}
+Make an informed decision you won't regret
+:::
+
+---
+
+## Key Decision Dimensions{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Nature & Sponsor**
+
+- Basic research vs. applied research
+- Faculty-sponsored vs. student-initiated
+- Level of structure and guidance you prefer
+:::
+
+::: {.column width="50%"}
+**Data & Analytics**
+
+- Data availability and access
+- Primary vs. secondary data
+- Sophistication and volume of data
+- Exploratory vs. confirmatory objectives
+:::
+
+::::
+
+::: {.fragment .fade-in .accent-box}
+**Most important:** Choose a project aligned with your **career objective** — Digital Marketing Strategy vs. Marketing Analytics/Data Science.
+:::
+
+---
+
+## Career Alignment Guide{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+<table>
+<thead><tr><th></th><th>Digital Marketing Strategy</th><th>Marketing Analytics / Data Science</th></tr></thead>
+<tbody>
+<tr><td><strong>Focus</strong></td><td>Planning, content creation, campaign execution</td><td>Modeling, segmentation, predictive analytics</td></tr>
+<tr><td><strong>Data</strong></td><td>GA4, Google Ads dashboards, social metrics</td><td>Large structured datasets, CRM, BigQuery</td></tr>
+<tr><td><strong>Analytics</strong></td><td>Descriptive; exploratory sufficient</td><td>Confirmatory; inferential & predictive required</td></tr>
+<tr><td><strong>DM Plan</strong></td><td>Central deliverable — must execute a campaign</td><td>Important but not the primary focus</td></tr>
+<tr><td><strong>Portfolio</strong></td><td>Campaign artifacts, content, results</td><td>Analytical models, dashboards, code</td></tr>
+</tbody>
+</table>
+
+---
+
+# Project Objectives vs. Analytics Objectives {background-color="#154734"}
+
+::: {.divider-sub}
+The most important distinction in the entire CEP process
+:::
+
+---
+
+## Why This Distinction Matters{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+Clients express their needs as **business goals** — things they want to achieve. These are **Project Objectives (PO)**.
+:::
+
+::: {.fragment .fade-in}
+But the CEP requires **data analysis** — and analysis requires objectives that are directly tied to data. These are **Analytics Objectives (AO)**.
+:::
+
+::: {.fragment .fade-in .warn-box}
+Students who cannot tell the difference will not make informed decisions — and may discover in Spring that they have **nothing to analyze in Chapter 4**.
+:::
+
+---
+
+## PO vs. AO — The Core Test{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+Ask yourself two diagnostic questions:
+
+::: {.incremental}
+1. **"Is there data associated with this objective?"** — If no, it is a PO, not an AO.
+2. **"What statistical method would I use to address this in Chapter 3?"** — If you cannot name a method, it is a PO.
+:::
+
+::: {.fragment .fade-in}
+### Example
+> *"Design an effective website that will promote the new service and generate leads."*
+
+Is there a statistical method required to design a website? **No** — designing a website is a project activity. This is a **PO**.
+:::
+
+---
+
+## How to Convert PO to AO{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+Ask the guiding question:
+
+> **"What information do I need, and where can I find it, in order to achieve the project objectives?"**
+
+::: {.fragment .fade-in}
+**PO1**: Design a website to engage potential clients and increase conversion rates.
+
+↓ Collect GA4 data: bounce rate, session duration, conversion rate, visitors
+
+↓ Ask: what does the data tell us? What improves engagement?
+:::
+
+::: {.fragment .fade-in}
+**AO1a**: Explore ways in which the website can be optimized for potential customers.
+
+**AO1b**: Generate insights from GA4 and Google Ads data for website optimization.
+
+**AO1c**: Generate insights from GA4 and Google Ads data to increase visitor engagement and conversions.
+:::
+
+::: {.fragment .fade-in .accent-box}
+Choose the AO statement that is **clearest and most concrete**. AO1c wins here.
+:::
+
+---
+
+## One AO Per Person{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+Each group member (4–6 students) owns **exactly one Analytics Objective** — from proposal through data collection, analysis, and report writing.
+:::
+
+::: {.fragment .fade-in}
+This is what makes individual performance measurable in a group project.
+:::
+
+::: {.fragment .fade-in}
+<table>
+<thead><tr><th>Group size</th><th>Number of AOs</th></tr></thead>
+<tbody>
+<tr><td>4 students</td><td>4 AOs (one each)</td></tr>
+<tr><td>5 students</td><td>5 AOs (one each)</td></tr>
+<tr><td>6 students</td><td>6 AOs (one each)</td></tr>
+</tbody>
+</table>
+:::
+
+::: {.fragment .fade-in .accent-box}
+Your AO is **your analytical responsibility** — you design the method, collect the data, run the analysis, and write Chapter 4 for it.
+:::
+
+---
+
+# Individual Accountability {background-color="#154734"}
+
+::: {.divider-sub}
+How individual performance is documented and graded
+:::
+
+---
+
+## How Individual Contributions Are Tracked{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.incremental}
+1. **One AO per person** — each student is individually responsible for their analytics objective throughout the year
+2. **Shared cloud folder with subfolders per person** — each member has their own named subfolder in OneDrive, creating transparent, documented contributions
+3. **Individual Contribution Statement (ICS)** — required at the end of the project; each student writes their own, submitted to the library as part of graduation paperwork
+4. **Faculty Lead assessment at each milestone** — your faculty lead formally evaluates individual performance at W09, W15, and again in Spring and Summer; course instructors use those evaluations for grades
+:::
+
+---
+
+## The Individual Contribution Statement{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+The ICS is submitted at the end of Summer (W10) as part of the final paperwork package.
+:::
+
+::: {.fragment .fade-in}
+It documents:
+
+- What specific work **you personally** contributed to the project
+- Which AO was yours and how you addressed it
+- Your role in data collection, analysis, writing, and presentation
+:::
+
+::: {.fragment .fade-in .accent-box}
+**The ICS is not a group document.** Each member writes their own and it is submitted individually to the library via Bronco ScholarWorks.
+:::
+
+---
+
+# Project Management {background-color="#154734"}
+
+::: {.divider-sub}
+Collaboration expectations with your group, faculty lead, and client
+:::
+
+---
+
+## Working with Your Group{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.incremental}
+- **Create a shared OneDrive folder** — give edit access to all members and your faculty lead (the whole folder, not just selected files)
+- **Create subfolders with each person's name** — transparency prevents free-riding and reduces conflict
+- **Hold a group meeting before each faculty meeting** — align internally, assign tasks, prepare questions
+- **Use a project management tool** — Notion is recommended; helps track tasks, milestones, and deadlines
+:::
+
+---
+
+## Meeting Frequency — Faculty Lead{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+:::: {.columns}
+
+::: {.column width="55%"}
+::: {.incremental}
+- Meet with your faculty lead **once a week** — unless there is no agenda
+- Share **written agenda before the meeting** — especially if you want the faculty lead to prepare
+- Send a **calendar invitation** to all attendees for every meeting
+- Use a **recurring invite** with a shared cloud document for agendas — update it before each meeting
+- If skipping a week, send a **brief update email** instead
+:::
+:::
+
+::: {.column width="45%"}
+::: {.accent-box}
+**When faculty engagement is highest**
+
+Faculty leads need at least **one hour per week** to review your work and provide technical guidance. Their involvement is most critical during **data collection and data analysis**.
+:::
+:::
+
+::::
+
+---
+
+## Meeting Frequency — Client{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.incremental}
+- Client meetings are **less frequent** than faculty meetings
+- Invite the client only when their input is **genuinely required**:
+  - Company background or data not publicly available
+  - Approval, resources, or cooperation requests
+  - All major required presentations (Fall W09, W15; Spring W06, W13, W16; Summer W05, W09)
+:::
+
+::: {.fragment .fade-in .warn-box}
+**Do not invite the client to every weekly meeting.** They are busy. They do not need to observe your internal working sessions with your faculty lead. This is a consulting project, not an internship — present your best work.
+:::
+
+---
+
+## Best Scheduling Practices{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+:::: {.columns}
+
+::: {.column width="55%"}
+::: {.incremental}
+- Use a **recurring calendar invite** for weekly faculty meetings
+- Include the meeting agenda (or link to it) in the invite
+- If the agenda changes, update the shared cloud document — not the invite itself
+- Cancel or reschedule **only the specific instance**, not the entire series
+- Always notify participants through the calendar system
+:::
+:::
+
+::: {.column width="45%"}
+::: {.accent-box}
+**Recommended tools**
+
+- **Agenda management**: Google Docs tabs or Word with Navigation Pane
+- **Project tracking**: Notion
+- **File sharing**: OneDrive (Cal Poly Pomona supported)
+- **Scheduling**: Outlook calendar with recurring invite
+:::
+:::
+
+::::
+
+---
+
+# Pitfalls to Avoid {background-color="#154734"}
+
+::: {.divider-sub}
+Six common mistakes that derail CEP projects
+:::
+
+---
+
+## Pitfall 1 — Confusing PO with AO{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+This is the **most common and most consequential** mistake. Students who cannot tell the difference design a project they cannot analyze.
+:::
+
+::: {.fragment .fade-in .warn-box}
+If your AO is actually a PO, you will arrive at **Chapter 4 with nothing to analyze** — and Chapter 4 is the entire Spring semester.
+:::
+
+::: {.fragment .fade-in}
+**Check every objective** using the two diagnostic questions:
+
+1. Is there data associated with this objective?
+2. What statistical method would I use in Chapter 3?
+
+If you cannot answer both — it is a PO. Convert it.
+:::
+
+---
+
+## Pitfall 2 — No Data by Fall W15{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+Data is the lifeblood of your spring semester. Without it, you cannot analyze, you cannot write Chapter 4, and you cannot create a data-informed marketing plan.
+:::
+
+::: {.fragment .fade-in}
+Students without solid data at the W15 defense will receive a **temporary grade (I or RP)** for IBM 6500. Remediation happens during winter break.
+:::
+
+::: {.fragment .fade-in .warn-box}
+**Winter break goes quickly.** Most people take a break in mid-December through early January. Do not count on making serious progress during break — get your data in the fall.
+:::
+
+---
+
+## Pitfall 3 — Poor Project Management{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.incremental}
+- **Not scheduling weekly meetings early** — establish your recurring faculty meeting cadence by Week 4 at the latest
+- **Waiting until the deadline to flag problems** — if your data plan hits a barrier, tell your faculty lead immediately, not the week before W15
+- **No shared agenda** — meetings without a pre-shared agenda waste the faculty lead's time and your own
+- **Not using a project management tool** — tasks fall through the cracks; milestones are missed; team members lose track of who owns what
+:::
+
+::: {.fragment .fade-in .accent-box}
+Treat your faculty lead like a consulting client — come prepared, communicate proactively, and respect their time.
+:::
+
+---
+
+## Pitfall 4 — Inviting the Client to Every Meeting{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+Clients are **extremely busy**. They are not interested in observing your internal working process.
+:::
+
+::: {.fragment .fade-in}
+Inviting the client too often has three downsides:
+
+1. Limits the time your faculty lead can spend guiding you — they hold back in front of the client
+2. Exposes your "working kitchen" — the client should see polished work, not rough drafts
+3. Signals that you cannot self-manage — this is a consulting engagement, not an internship
+:::
+
+::: {.fragment .fade-in .accent-box}
+Invite the client **purposefully** — when you need their information, approval, or attendance at a required milestone presentation.
+:::
+
+---
+
+## Pitfall 5 — Waiting Until Spring to Secure Data{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+Spring Day 1 = analysis begins. There is no time in spring to collect or clean data.
+:::
+
+::: {.fragment .fade-in}
+**If you are using GA4 data:** GA4 must be set up and tracking in the fall so you accumulate at least one month of data before W15. Infrastructure (GA4 + GTM + UTM) setup starts at W04.
+:::
+
+::: {.fragment .fade-in}
+**If you are doing survey research:** IRB approval takes 2–3 weeks minimum. Apply at W10. Data collection cannot begin until approval is granted.
+:::
+
+::: {.fragment .fade-in .warn-box}
+**Secondary data is not automatically ready either.** Confirm data integrity (variables, completeness, access) during the fall. Missing variables discovered in spring = a failed analytics objective.
+:::
+
+---
+
+## Pitfall 6 — Missing the Summer W09 Presentation{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.fragment .fade-in}
+The Summer Week 9 final presentation is the one milestone explicitly tied to **graduation eligibility**.
+:::
+
+::: {.fragment .fade-in .warn-box}
+**Failure to complete this presentation = inability to graduate at the end of summer.** There is no make-up. There is no extension. Plan for this from Day 1.
+:::
+
+::: {.fragment .fade-in}
+Why it matters:
+
+- W10 requires final edits and committee signatures via Adobe Docu
+- W11 requires RCE submission by your faculty lead + abstract submission to library
+- These administrative steps take time — you cannot compress them
+
+Start your campaign early (ideally end of Spring) so you have enough performance data to assess by W09.
+:::
+
+---
+
+# Next Steps & Resources {background-color="#154734"}
+
+::: {.divider-sub}
+What to do before August 17
+:::
+
+---
+
+## Key Dates to Remember{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+<table>
+<thead><tr><th>Date</th><th>Action Required</th></tr></thead>
+<tbody>
+<tr><td><strong>Aug 17 (FA W00)</strong></td><td>Proposal submission deadline — submit 2-page proposal to Program Coordinator</td></tr>
+<tr><td><strong>Aug 24 (FA W01)</strong></td><td>Feedback provided to proposers</td></tr>
+<tr><td><strong>Aug 31 (FA W02)</strong></td><td>Project Forum — attend in IBM 6200 and IBM 6500; submit Project Preference Form</td></tr>
+<tr><td><strong>Sep 8 (FA W03)</strong></td><td>Project-group assignments announced</td></tr>
+<tr><td><strong>Sep 15 (FA W04)</strong></td><td>Project Kickoff Day — first meeting with faculty lead and client</td></tr>
+</tbody>
+</table>
+
+---
+
+## Essential Documents{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.incremental}
+- **CEP Guide** — detailed instructions, expectations, and grading criteria for the full year: [cppmsdm.com/cep_guidelines](https://www.cppmsdm.com/cep_guidelines)
+- **CEP Content & Format Template** — structured report template (Ch1–Ch5 + front matter): [cppmsdm.com/cep-content-format-template](https://www.cppmsdm.com/cep-content-format-template)
+- **Responsibilities for All Parties** — roles for students, faculty leads, and instructors: [cppmsdm.com/cep_responsibilities](https://www.cppmsdm.com/cep_responsibilities)
+- **Project Milestones Table** — full one-year timeline with all deliverables: [cppmsdm.com/capstone_project](https://www.cppmsdm.com/capstone_project#sec-project-milestones-and-timelines)
+:::
+
+---
+
+## Q&A{.unnumbered}
+
+<div class="cpp-rule"></div>
+
+::: {.r-fit-text .green}
+Questions?
+:::
+
+::: {.r-fit-text .gold}
+The floor is yours.
+:::
+
+::: {style="margin-top: 1.5em; font-size: 0.65em; color: #5A5A5A;"}
+Contact the MSDM Project Coordinator for proposal questions before submission.<br>
+All CEP resources: **cppmsdm.com/capstone_project**
+:::
