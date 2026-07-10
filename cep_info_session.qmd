@@ -6,6 +6,8 @@ date: today
 format:
   revealjs:
     theme: [default, cpp-theme.scss]
+    toc: true
+    toc-depth: 1
     slide-number: c/t
     progress: true
     transition: fade
@@ -327,7 +329,7 @@ What goes in a 2-page proposal
 ::::
 
 ::: {.accent-box}
-No more than **2 pages**. Submit to the Program Coordinator by **FA W00 (Aug 17)**.
+No more than **3 pages**. Submit to the Program Coordinator by **FA W00 (Aug 17)**.
 :::
 
 ---
@@ -496,6 +498,8 @@ Ask the guiding question:
 
 ↓ Ask: what does the data tell us? What improves engagement?
 :::
+
+<hr style="border: 1px solid #B08D57; margin: 0.6em 0;">
 
 ::: {.fragment .fade-in}
 **AO1a**: Explore ways in which the website can be optimized for potential customers.
@@ -864,15 +868,12 @@ What to do before August 17
 
 <div class="cpp-rule"></div>
 
-::: {.r-fit-text .green}
-Questions?
+::: {.r-fit-text}
+[Questions?]{style="color: #154734;"}<br>
+[The floor is yours.]{style="color: #B08D57;"}
 :::
 
-::: {.r-fit-text .gold}
-The floor is yours.
-:::
-
-::: {style="margin-top: 1.5em; font-size: 0.65em; color: #5A5A5A;"}
+::: {style="font-size: 0.65em; color: #5A5A5A; margin-top: 0.5em;"}
 Contact the MSDM Project Coordinator for proposal questions before submission.<br>
 All CEP resources: **cppmsdm.com/capstone_project**
 :::
