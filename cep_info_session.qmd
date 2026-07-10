@@ -24,6 +24,7 @@ format:
     width: 1280
     height: 720
     footer: "MSDM Culminating Experience Project Info Session | SGSB | Cal Poly Pomona | July 9, 2026"
+    link-external-newwindow: true
 execute:
   echo: false
   warning: false
