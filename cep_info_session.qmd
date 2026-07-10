@@ -3,7 +3,7 @@ title: "Introduction to MSDM Culminating Experience Project"
 subtitle: "Informational Session"
 author: "Dr. Jae Min Jung"
 institute: "Program Director, MS in Digital Marketing<br>Cal Poly Pomona"
-date: today
+date: "July 9, 2026"
 format:
   revealjs:
     theme: [default, cpp-theme.scss]
