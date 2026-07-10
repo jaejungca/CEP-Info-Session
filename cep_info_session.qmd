@@ -1,7 +1,8 @@
 ---
-title: "MSDM Culminating Experience Project"
+title: "Introduction to MSDM Culminating Experience Project"
 subtitle: "Informational Session"
-author: "Jae Jung · Cal Poly Pomona"
+author: "Dr. Jae Min Jung"
+institute: "Program Director, MS in Digital Marketing<br>Cal Poly Pomona"
 date: today
 format:
   revealjs:
@@ -22,6 +23,7 @@ format:
     preview-links: auto
     width: 1280
     height: 720
+    footer: "MSDM Culminating Experience Project Info Session | SGSB | Cal Poly Pomona | July 9, 2026"
 execute:
   echo: false
   warning: false
