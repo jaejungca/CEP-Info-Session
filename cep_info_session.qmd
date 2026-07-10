@@ -10,6 +10,7 @@ format:
     progress: true
     transition: fade
     transition-speed: fast
+    incremental: false
     code-line-numbers: false
     code-fold: false
     code-tools: false
@@ -30,7 +31,9 @@ execute:
 <div class="cpp-rule"></div>
 
 ::: {.fragment .fade-in}
-The **MSDM Culminating Experience Project (CEP)** is the capstone of your graduate journey — a year-long applied project where you put everything you have learned to work on a real digital marketing challenge.
+The **MSDM Culminating Experience Project (CEP)** 
+
+-  The capstone of your graduate journey — a year-long applied project where you put everything you have learned to work on a real digital marketing challenge.
 :::
 
 ::: {.fragment .fade-in}
@@ -111,7 +114,9 @@ A one-year arc — Fall → Spring → Summer
 </div>
 
 ::: {.fragment .fade-in}
-Each semester has **major milestones** with written reports and presentations. Missing a milestone can result in a temporary grade and delay graduation.
+-   Each semester has **major milestones** with written reports and presentations. 
+
+-   Missing a milestone can result in a temporary grade and delay graduation.
 :::
 
 ---
@@ -129,6 +134,12 @@ Each semester has **major milestones** with written reports and presentations. M
 <tr><td><strong>W15</strong></td><td>Final Proposal Defense</td><td>Ch1–Ch3 written report + PPT; IRB letter; link to data in OneDrive</td></tr>
 </tbody>
 </table>
+
+::: {.accent-box}
+-   **IBM 6500** hosts Ch1 (Introduction), Ch2 (Business Background), and Ch3 (Methodology). 
+
+-   **IBM 6200** hosts Research Forum, Team Formation, Ch2 (Literature Review).
+:::
 
 ::: {.fragment .fade-in .warn-box}
 **Students without solid data by W15 will receive a temporary grade** and must complete data collection during winter break before proceeding to spring.
@@ -151,7 +162,9 @@ Each semester has **major milestones** with written reports and presentations. M
 </table>
 
 ::: {.accent-box}
-**IBM 6800** hosts Ch4 analysis. **IBM 6400** hosts the concrete DM plan in W16.
+-   **IBM 6800** hosts Ch4 analysis. 
+
+-   **IBM 6400** hosts the concrete DM plan in W16.
 :::
 
 ---
@@ -205,7 +218,7 @@ Who proposes, what topics, what's required
 
 ::::
 
-::: {.fragment .fade-in .accent-box}
+::: {.fade-in .accent-box}
 **Businesses and organizations** can be involved as clients, but the proposal must be submitted by a faculty member or a student with a committed faculty lead.
 :::
 
@@ -394,8 +407,13 @@ Make an informed decision you won't regret
 
 ::::
 
-::: {.fragment .fade-in .accent-box}
-**Most important:** Choose a project aligned with your **career objective** — Digital Marketing Strategy vs. Marketing Analytics/Data Science.
+::: {.fade-in .accent-box}
+**Most important:** 
+Choose a project aligned with your **career objective:** 
+
+- Digital Marketing Strategy vs. 
+- Technological and Performance vs. 
+- Marketing Analytics/Data Science.
 :::
 
 ---
@@ -429,15 +447,15 @@ The most important distinction in the entire CEP process
 
 <div class="cpp-rule"></div>
 
-::: {.fragment .fade-in}
-Clients express their needs as **business goals** — things they want to achieve. These are **Project Objectives (PO)**.
+::: {.fade-in}
+- Clients express their needs as **business goals** — things they want to achieve. These are **Project Objectives (PO)**.
 :::
 
-::: {.fragment .fade-in}
-But the CEP requires **data analysis** — and analysis requires objectives that are directly tied to data. These are **Analytics Objectives (AO)**.
+::: {.fade-in}
+- But the CEP requires **data analysis** — and analysis requires objectives that are directly tied to data. These are **Analytics Objectives (AO)**.
 :::
 
-::: {.fragment .fade-in .warn-box}
+::: {.fade-in .warn-box}
 Students who cannot tell the difference will not make informed decisions — and may discover in Spring that they have **nothing to analyze in Chapter 4**.
 :::
 
@@ -458,7 +476,7 @@ Ask yourself two diagnostic questions:
 ### Example
 > *"Design an effective website that will promote the new service and generate leads."*
 
-Is there a statistical method required to design a website? **No** — designing a website is a project activity. This is a **PO**.
+Is there a statistical method required to design a website? **No** — designing a website is a project activity. Thus, this is a **PO**.
 :::
 
 ---
@@ -498,11 +516,11 @@ Choose the AO statement that is **clearest and most concrete**. AO1c wins here.
 <div class="cpp-rule"></div>
 
 ::: {.fragment .fade-in}
-Each group member (4–6 students) owns **exactly one Analytics Objective** — from proposal through data collection, analysis, and report writing.
+- Each group member (4–6 students) owns **exactly one Analytics Objective** — from proposal through data collection, analysis, and report writing.
 :::
 
 ::: {.fragment .fade-in}
-This is what makes individual performance measurable in a group project.
+- This is what makes individual performance measurable in a group project.
 :::
 
 ::: {.fragment .fade-in}
@@ -579,7 +597,10 @@ Collaboration expectations with your group, faculty lead, and client
 
 ::: {.incremental}
 - **Create a shared OneDrive folder** — give edit access to all members and your faculty lead (the whole folder, not just selected files)
+- **Use a shared agenda for meetings** — Google Docs or Word with Navigation Pane; update it before each meeting
 - **Create subfolders with each person's name** — transparency prevents free-riding and reduces conflict
+- **Establish Zotero Web Library for group for literature review** — share references and notes; faculty lead can see your progress
+- **Create GitHub Repository for code and output** — share code, scripts, and results; group members and faculty lead can see your progress
 - **Hold a group meeting before each faculty meeting** — align internally, assign tasks, prepare questions
 - **Use a project management tool** — Notion is recommended; helps track tasks, milestones, and deadlines
 :::
@@ -594,7 +615,7 @@ Collaboration expectations with your group, faculty lead, and client
 
 ::: {.column width="55%"}
 ::: {.incremental}
-- Meet with your faculty lead **once a week** — unless there is no agenda
+- Meet with your faculty lead **once every other week** — unless there is no agenda
 - Share **written agenda before the meeting** — especially if you want the faculty lead to prepare
 - Send a **calendar invitation** to all attendees for every meeting
 - Use a **recurring invite** with a shared cloud document for agendas — update it before each meeting
@@ -606,7 +627,7 @@ Collaboration expectations with your group, faculty lead, and client
 ::: {.accent-box}
 **When faculty engagement is highest**
 
-Faculty leads need at least **one hour per week** to review your work and provide technical guidance. Their involvement is most critical during **data collection and data analysis**.
+Faculty leads need at least **one hour per every other week** to review your work and provide technical guidance. Their involvement is most critical during **data collection and data analysis**.
 :::
 :::
 
@@ -627,7 +648,7 @@ Faculty leads need at least **one hour per week** to review your work and provid
 :::
 
 ::: {.fragment .fade-in .warn-box}
-**Do not invite the client to every weekly meeting.** They are busy. They do not need to observe your internal working sessions with your faculty lead. This is a consulting project, not an internship — present your best work.
+**Do not invite the client to every meeting with the faculty lead.** They are busy. They do not need to observe your internal working sessions with your faculty lead. This is a consulting project, not an internship — present your best work.
 :::
 
 ---
@@ -640,7 +661,7 @@ Faculty leads need at least **one hour per week** to review your work and provid
 
 ::: {.column width="55%"}
 ::: {.incremental}
-- Use a **recurring calendar invite** for weekly faculty meetings
+- Use a **recurring calendar invite** for biweekly faculty meetings
 - Include the meeting agenda (or link to it) in the invite
 - If the agenda changes, update the shared cloud document — not the invite itself
 - Cancel or reschedule **only the specific instance**, not the entire series
@@ -656,6 +677,10 @@ Faculty leads need at least **one hour per week** to review your work and provid
 - **Project tracking**: Notion
 - **File sharing**: OneDrive (Cal Poly Pomona supported)
 - **Scheduling**: Outlook calendar with recurring invite
+- **Code sharing**: GitHub
+- **Reference management**: Zotero Web Library
+- **Report Writing**: Quarto or Word
+- **Presentation**: Quarto or PowerPoint
 :::
 :::
 
@@ -699,11 +724,11 @@ If you cannot answer both — it is a PO. Convert it.
 <div class="cpp-rule"></div>
 
 ::: {.fragment .fade-in}
-Data is the lifeblood of your spring semester. Without it, you cannot analyze, you cannot write Chapter 4, and you cannot create a data-informed marketing plan.
+- Data is the lifeblood of your spring semester. Without it, you cannot analyze, you cannot write Chapter 4, and you cannot create a data-informed marketing plan.
 :::
 
 ::: {.fragment .fade-in}
-Students without solid data at the W15 defense will receive a **temporary grade (I or RP)** for IBM 6500. Remediation happens during winter break.
+- Students without solid data at the W15 defense will receive a **temporary grade (I or RP)** for IBM 6500. Remediation happens during winter break.
 :::
 
 ::: {.fragment .fade-in .warn-box}
@@ -734,15 +759,15 @@ Treat your faculty lead like a consulting client — come prepared, communicate 
 <div class="cpp-rule"></div>
 
 ::: {.fragment .fade-in}
-Clients are **extremely busy**. They are not interested in observing your internal working process.
+- Clients are **extremely busy**. They are not interested in observing your internal working process.
 :::
 
 ::: {.fragment .fade-in}
-Inviting the client too often has three downsides:
+- Inviting the client too often has three downsides:
 
-1. Limits the time your faculty lead can spend guiding you — they hold back in front of the client
-2. Exposes your "working kitchen" — the client should see polished work, not rough drafts
-3. Signals that you cannot self-manage — this is a consulting engagement, not an internship
+  1. Limits the time your faculty lead can spend guiding you — they hold back in front of the client
+  2. Exposes your "working kitchen" — the client should see polished work, not rough drafts
+  3. Signals that you cannot self-manage — this is a consulting engagement, not an internship
 :::
 
 ::: {.fragment .fade-in .accent-box}
@@ -760,11 +785,11 @@ Spring Day 1 = analysis begins. There is no time in spring to collect or clean d
 :::
 
 ::: {.fragment .fade-in}
-**If you are using GA4 data:** GA4 must be set up and tracking in the fall so you accumulate at least one month of data before W15. Infrastructure (GA4 + GTM + UTM) setup starts at W04.
+- **If you are using GA4 data:** GA4 must be set up and tracking in the fall so you accumulate at least one month of data before W15. Infrastructure (GA4 + GTM + UTM) setup starts at W04.
 :::
 
 ::: {.fragment .fade-in}
-**If you are doing survey research:** IRB approval takes 2–3 weeks minimum. Apply at W10. Data collection cannot begin until approval is granted.
+- **If you are doing survey research:** IRB approval takes 2–3 weeks minimum. Apply at W10. Data collection cannot begin until approval is granted.
 :::
 
 ::: {.fragment .fade-in .warn-box}
@@ -782,7 +807,7 @@ The Summer Week 9 final presentation is the one milestone explicitly tied to **g
 :::
 
 ::: {.fragment .fade-in .warn-box}
-**Failure to complete this presentation = inability to graduate at the end of summer.** There is no make-up. There is no extension. Plan for this from Day 1.
+- **Failure to complete this presentation = inability to graduate at the end of summer.** There is no make-up. There is no extension. Plan for this from Day 1.
 :::
 
 ::: {.fragment .fade-in}
