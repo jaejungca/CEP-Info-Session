@@ -141,9 +141,9 @@ A one-year arc — Fall → Spring → Summer
 </table>
 
 ::: {.accent-box}
--   **IBM 6500** hosts Ch1 (Introduction), Ch2 (Business Background), and Ch3 (Methodology). 
+-   **IBM 6500** hosts Research Forum, Ch1 (Introduction) and Ch3 (Methodology). 
 
--   **IBM 6200** hosts Research Forum, Team Formation, Ch2 (Literature Review).
+-   **IBM 6200** hosts Research Forum, Team Formation, and Ch2 (Literature Review).
 :::
 
 ::: {.fragment .fade-in .warn-box}
@@ -160,16 +160,16 @@ A one-year arc — Fall → Spring → Summer
 <thead><tr><th>Week</th><th>Milestone</th><th>Deliverables</th></tr></thead>
 <tbody>
 <tr><td><strong>W01</strong></td><td>Data Analysis Begins — Day 1</td><td>Data wrangling, visualization, descriptive statistics</td></tr>
-<tr><td><strong>W06</strong></td><td>Data Analysis & Results Presentation</td><td>Chapter 4 written report + PPT (Ch1–Ch4)</td></tr>
-<tr><td><strong>W13</strong></td><td>Final Analysis & Recommendations</td><td>Ch4 final + Part of Ch5 (recommendations); written report + PPT</td></tr>
-<tr><td><strong>W16</strong></td><td>Digital Marketing Plan Presentation</td><td>Concrete DM plan; campaign starts immediately</td></tr>
+<tr><td><strong>W05-W06</strong></td><td>Data Analysis & Results Presentation</td><td>Chapter 4 written report + PPT (Ch1–Ch4)</td></tr>
+<tr><td><strong>W10-W11</strong></td><td>Final Analysis & Recommendations</td><td>Ch4 final + Part of Ch5 (recommendations); written report + PPT</td></tr>
+<tr><td><strong>W15</strong></td><td>Digital Marketing Plan Presentation</td><td>Concrete DM plan; campaign starts immediately</td></tr>
 </tbody>
 </table>
 
 ::: {.accent-box}
--   **IBM 6800** hosts Ch4 analysis. 
+-   **IBM 6800** hosts Ch4 analysis + Ch5 Recommendations. 
 
--   **IBM 6400** hosts the concrete DM plan in W16.
+-   **IBM 6400** hosts Ch5 the concrete Digital Marketing plan.
 :::
 
 ---
@@ -188,6 +188,10 @@ A one-year arc — Fall → Spring → Summer
 <tr><td><strong>W11</strong></td><td>Paperwork</td><td>RCE submission; Abstract/ICS to library; full report to instructor</td></tr>
 </tbody>
 </table>
+
+::: {.accent-box}
+-   **IBM 6950** hosts Ch5 latter part of Chapter 5 - Implementation and the rest. 
+:::
 
 ::: {.warn-box}
 **Failure to complete the W09 final presentation = inability to graduate at the end of summer.** Plan accordingly.
@@ -651,7 +655,7 @@ Faculty leads need at least **one hour per every other week** to review your wor
 - Invite the client only when their input is **genuinely required**:
   - Company background or data not publicly available
   - Approval, resources, or cooperation requests
-  - All major required presentations (Fall W09, W15; Spring W06, W13, W16; Summer W05, W09)
+  - All major required presentations (Fall W09, W15; Spring W05/W06, W11/W12, W15; Summer W05, W09)
 :::
 
 ::: {.fragment .fade-in .warn-box}
